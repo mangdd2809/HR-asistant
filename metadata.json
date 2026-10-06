@@ -1,0 +1,6 @@
+{
+  "name": "HR Advisor",
+  "description": "Tool AI Advisor untuk petugas Human Resources dalam menganalisis kasus kepegawaian secara akurat berdasarkan file ketentuan dan regulasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

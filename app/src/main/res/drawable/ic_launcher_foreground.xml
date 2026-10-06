@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Policy Document background layer -->
+    <path
+        android:pathData="M32,22 L62,22 L76,36 L76,82 C76,85.3 73.3,88 70,88 L32,88 C28.7,88 26,85.3 26,82 L26,28 C26,24.7 28.7,22 32,22 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="22"
+                android:endX="76"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Folded corner on document -->
+    <path
+        android:fillColor="#BAE6FD"
+        android:pathData="M62,22 L62,36 L76,36 Z" />
+    <!-- HR Shield / Legal Compliance Badge in center -->
+    <path
+        android:pathData="M51,40 L69,45 C69,57 60,67 51,71 C42,67 33,57 33,45 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="33"
+                android:startY="40"
+                android:endX="69"
+                android:endY="71"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0F172A" />
+                <item android:offset="1.0" android:color="#1E293B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- HR Person icon inside badge -->
+    <!-- Head -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M51,46 A3.5,3.5 0 1,0 51,46.01 Z" />
+    <!-- Torso -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M44.5,59 C44.5,54.5 47.4,52 51,52 C54.6,52 57.5,54.5 57.5,59 Z" />
+    <!-- Scales/Checkmark of Compliance -->
+    <path
+        android:strokeColor="#34D399"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M48,63 L50.5,65.5 L55.5,60.5" />
+    <!-- AI Sparkle / Intelligence Star at top right -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M74,26 L75.5,30.5 L80,32 L75.5,33.5 L74,38 L72.5,33.5 L68,32 L72.5,30.5 Z" />
+</vector>
